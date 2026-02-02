@@ -48,6 +48,7 @@ import { ChatComponent } from '../chat/chat/chat.component'
 import { ProfileEditDialogComponent } from '../common/profile-edit-dialog/profile-edit-dialog.component'
 import { DocumentDetailComponent } from '../document-detail/document-detail.component'
 import { ComponentWithPermissions } from '../with-permissions/with-permissions.component'
+import { DocumentsTreeComponent } from './documents-tree/documents-tree.component'
 import { GlobalSearchComponent } from './global-search/global-search.component'
 import { ToastsDropdownComponent } from './toasts-dropdown/toasts-dropdown.component'
 
@@ -56,6 +57,7 @@ import { ToastsDropdownComponent } from './toasts-dropdown/toasts-dropdown.compo
   templateUrl: './app-frame.component.html',
   styleUrls: ['./app-frame.component.scss'],
   imports: [
+    DocumentsTreeComponent,
     GlobalSearchComponent,
     DocumentTitlePipe,
     IfPermissionsDirective,
